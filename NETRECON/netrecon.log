@@ -1,0 +1,642 @@
+
+INFO:root:[2025-10-06 14:57:36] Running service detection on 10.0.0.1 :22,80,443
+INFO:root:[2025-10-06 14:57:37] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 14:57 +0700
+Nmap done: 0 IP addresses (0 hosts up) scanned in 1.40 seconds
+
+INFO:root:[2025-10-06 14:57:37] Mapping network...
+INFO:root:[2025-10-06 14:57:37] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.110        50-eb-f6-e7-bb-1d     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.132        50-eb-f6-e7-bc-4b     dynamic   
+  192.168.88.134        50-eb-f6-e7-c0-b5     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.117:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:58:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:58:17] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:58:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:[2025-10-06 14:58:30] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 14:58:31] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 14:58:32] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 14:58 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.42 seconds
+
+INFO:root:[2025-10-06 14:58:38] Mapping network...
+INFO:root:[2025-10-06 14:58:38] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.110        50-eb-f6-e7-bb-1d     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.132        50-eb-f6-e7-bc-4b     dynamic   
+  192.168.88.134        50-eb-f6-e7-c0-b5     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 14:58:41] "POST /scan HTTP/1.1" 200 -
+INFO:root:[2025-10-06 15:01:46] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:01:47] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:01:48] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:01 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.42 seconds
+
+INFO:root:[2025-10-06 15:01:54] Mapping network...
+INFO:root:[2025-10-06 15:01:54] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:01:56] "POST /scan HTTP/1.1" 200 -
+INFO:root:[2025-10-06 15:02:42] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:02:43] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:02:45] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:02 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.44 seconds
+
+INFO:root:[2025-10-06 15:02:51] Mapping network...
+INFO:root:[2025-10-06 15:02:51] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:02:53] "POST /scan HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\email_sender.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\smtp_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\smtp_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\smtp_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\smtp_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.117:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:11:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:11:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:11:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:11:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:[2025-10-06 15:11:41] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:11:42] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:11:44] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:11 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.43 seconds
+
+INFO:root:[2025-10-06 15:11:50] Mapping network...
+INFO:root:[2025-10-06 15:11:50] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:modules.email_sender:Connecting via SMTP_SSL smtp.gmail.com:465
+ERROR:modules.email_sender:SMTP auth failed (code=535): b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-78b01f9a2b9sm11871086b3a.19 - gsmtp'
+ERROR:modules.email_sender:Ki\u1ec3m tra: (1) SMTP_USER là \u0111\u1ecba ch\u1ec9 gmail \u0111\u1ea7y \u0111\u1ee7; (2) SMTP_PASS là App Password (16 ký t\u1ef1) và KHÔNG có kho\u1ea3ng tr\u1eafng.
+ERROR:modules.email_sender:N\u1ebfu ch\u01b0a b\u1eadt 2-Step Verification, t\u1ea1o App Password r\u1ed3i dùng nó.
+ERROR:__main__:Không th\u1ec3 g\u1eedi email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-78b01f9a2b9sm11871086b3a.19 - gsmtp')
+Traceback (most recent call last):
+  File "M:\LDTOAN-0091\NETRECON\app.py", line 67, in scan
+    email_sender.send_email(email, "K\u1ebft qu\u1ea3 t\u1eeb NetRecon", body,
+  File "M:\LDTOAN-0091\NETRECON\modules\email_sender.py", line 54, in send_email
+    smtp.login(user, password)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-78b01f9a2b9sm11871086b3a.19 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:11:52] "POST /scan HTTP/1.1" 200 -
+INFO:root:[2025-10-06 15:12:30] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:12:31] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:12:33] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:12 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.42 seconds
+
+INFO:root:[2025-10-06 15:12:39] Mapping network...
+INFO:root:[2025-10-06 15:12:39] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:modules.email_sender:Connecting via SMTP_SSL smtp.gmail.com:465
+ERROR:modules.email_sender:SMTP auth failed (code=535): b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d1d2278sm123682985ad.92 - gsmtp'
+ERROR:modules.email_sender:Ki\u1ec3m tra: (1) SMTP_USER là \u0111\u1ecba ch\u1ec9 gmail \u0111\u1ea7y \u0111\u1ee7; (2) SMTP_PASS là App Password (16 ký t\u1ef1) và KHÔNG có kho\u1ea3ng tr\u1eafng.
+ERROR:modules.email_sender:N\u1ebfu ch\u01b0a b\u1eadt 2-Step Verification, t\u1ea1o App Password r\u1ed3i dùng nó.
+ERROR:__main__:Không th\u1ec3 g\u1eedi email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d1d2278sm123682985ad.92 - gsmtp')
+Traceback (most recent call last):
+  File "M:\LDTOAN-0091\NETRECON\app.py", line 67, in scan
+    email_sender.send_email(email, "K\u1ebft qu\u1ea3 t\u1eeb NetRecon", body,
+  File "M:\LDTOAN-0091\NETRECON\modules\email_sender.py", line 54, in send_email
+    smtp.login(user, password)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-28e8d1d2278sm123682985ad.92 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:12:41] "POST /scan HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\email_sender.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\email_sender.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\banner_grabber.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\filter_utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\port_scanner.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\modules\\network_mapper.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug: * Detected change in 'M:\\LDTOAN-0091\\NETRECON\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.117:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:15:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:15:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:[2025-10-06 15:15:55] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:15:56] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:15:58] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:15:58] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:15 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.42 seconds
+
+INFO:root:[2025-10-06 15:15:59] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:16:00] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:15 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.39 seconds
+
+INFO:root:[2025-10-06 15:16:04] Mapping network...
+INFO:root:[2025-10-06 15:16:04] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.134        50-eb-f6-e7-c0-b5     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:16:06] "POST /scan HTTP/1.1" 200 -
+INFO:root:[2025-10-06 15:16:06] Mapping network...
+INFO:root:[2025-10-06 15:16:06] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.134        50-eb-f6-e7-c0-b5     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:16:08] "POST /scan HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.88.117:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 657-126-233
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:17:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:17:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:[2025-10-06 15:17:40] Port 80 is open on 10.0.0.1
+INFO:root:[2025-10-06 15:17:41] Running service detection on 10.0.0.1:22,80,443
+INFO:root:[2025-10-06 15:17:42] Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-06 15:17 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 1.42 seconds
+
+INFO:root:[2025-10-06 15:17:48] Mapping network...
+INFO:root:[2025-10-06 15:17:48] 
+Interface: 192.168.88.117 --- 0x5
+  Internet Address      Physical Address      Type
+  192.168.88.63         00-0c-29-3b-c0-05     dynamic   
+  192.168.88.100        50-eb-f6-e7-bb-b3     dynamic   
+  192.168.88.101        50-eb-f6-e7-bc-0a     dynamic   
+  192.168.88.103        50-eb-f6-b9-bb-fa     dynamic   
+  192.168.88.105        50-eb-f6-e7-bc-19     dynamic   
+  192.168.88.111        50-eb-f6-e7-bc-1e     dynamic   
+  192.168.88.112        50-eb-f6-b7-f6-d9     dynamic   
+  192.168.88.115        50-eb-f6-e7-bc-25     dynamic   
+  192.168.88.118        50-eb-f6-e7-c0-b0     dynamic   
+  192.168.88.121        50-eb-f6-b9-b1-f5     dynamic   
+  192.168.88.123        50-eb-f6-e7-b9-f4     dynamic   
+  192.168.88.125        50-eb-f6-e7-bc-0d     dynamic   
+  192.168.88.126        50-eb-f6-b9-bc-14     dynamic   
+  192.168.88.127        50-eb-f6-e7-b8-ae     dynamic   
+  192.168.88.128        50-eb-f6-e7-b9-9a     dynamic   
+  192.168.88.129        50-eb-f6-e7-bb-bb     dynamic   
+  192.168.88.130        50-eb-f6-e7-8e-d6     dynamic   
+  192.168.88.134        50-eb-f6-e7-c0-b5     dynamic   
+  192.168.88.175        50-eb-f6-e7-bb-20     dynamic   
+  192.168.88.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.179.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.179.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+Interface: 192.168.17.1 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.17.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.2.60            01-00-5e-00-02-3c     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2025 15:17:51] "POST /scan HTTP/1.1" 200 -
